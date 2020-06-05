@@ -604,7 +604,7 @@
     "platform": "linux",
     "restart_policy": "unless-stopped",
     "ports": [
-      "8083/tcp"
+      "8083:8083/tcp"
     ],
     "volumes": [
       {
