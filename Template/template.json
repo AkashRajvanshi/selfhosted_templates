@@ -644,7 +644,7 @@
     "platform": "linux",
     "restart_policy": "unless-stopped",
     "ports": [
-      "5060/tcp"
+      "5060:5060/tcp"
     ],
     "volumes": [
       {
